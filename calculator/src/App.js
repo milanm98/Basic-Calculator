@@ -3,22 +3,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <div className="background w-screen h-screen"></div>
+       <div className="title text-white text-2xl md:text-5xl font-black tracking-widest leading-loose">
+          Calculator
+        </div>
+
+        <div className="center border w-5/6 md:w-1/6 h-3/6 bg-blue-100">
+          
+        </div>
+    </main>
   );
 }
 
